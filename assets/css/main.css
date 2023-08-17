@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, rgb(80, 230, 255) 50%, lightblue 100%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  width: 500px;
+  background-color: rgba(0, 140, 255, 0.7);
+}
+
+form h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+form .fieldText input {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+form .fieldText textarea {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+form .boxSelection {
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  color: rgb(22, 22, 22);
+  margin-bottom: 10px;
+}
+form .boxSelection label {
+  margin-bottom: 10px;
+  margin-right: 13px;
+}
+form .boxSelection p {
+  margin-bottom: 7px;
+}
+form input[type=submit] {
+  margin-top: 30px;
+  border-radius: 30px;
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 140, 255, 0.7);
+  border: 1px solid rgb(22, 22, 22);
+}
+form input[type=submit]:hover {
+  background-color: rgb(22, 22, 22);
+}/*# sourceMappingURL=main.css.map */
