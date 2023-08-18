@@ -5,11 +5,7 @@
     padding: 0rem;
 }
 
-// Variables
-$primaryColor: rgb(255, 255, 255);
-$secundaryColor: rgba(0, 140, 255, 0.7);
-$terciaryColor: rgb(22, 22, 22);
-$fourthColor: rgb(0, 0, 0);
+@import './variables';
 
 // Style
 main {
